@@ -3,19 +3,21 @@
 ## Exercise 1.1 Answers
 
 1. **Total commits:**  
-   _Command used:_ 
+  5
 
 2. **Top 3 contributors:**  
-   _Command used:_ 
+  user 1
+  user 2
+  user 3 
 
-3. **First commit hash:**  
-   _Command used:_ 
+4. **First commit hash:**  
+  123456789
 
-4. **Most recent commit date:**  
-   _Command used:_ 
+5. **Most recent commit date:**  
+   11/11/2025
 
-5. **Commits from last 7 days:**  
-   _Command used:_
+6. **Commits from last 7 days:**  
+   75
 
 ---
 
