@@ -1,27 +1,3 @@
-#!/bin/bash
-
-set -e
-
-# --- Directory Setup ---
-mkdir -p answers
-mkdir -p screenshots
-
-# --- .gitignore ---
-cat > .gitignore <<EOF
-# Ignore Mac system files
-.DS_Store
-
-# Ignore node_modules and Python cache for student code
-node_modules/
-__pycache__/
-*.pyc
-
-# Ignore screenshots folder (add screenshots on submission!)
-screenshots/
-EOF
-
-# --- README.md ---
-cat > README.md <<'EOF'
 # Week 12 Assignment (Version Control)
 
 ## Overview
@@ -50,3 +26,36 @@ In this assignment, you will demonstrate mastery of finding and altering commits
 ```bash
 git clone https://github.com/YOUR-USERNAME/git-commits-assignment.git
 cd git-commits-assignment
+```
+
+**Step 3: Configure Git**
+```bash
+git config user.name "Your Name"
+git config user.email "your.email@example.com"
+```
+
+**Step 4: Create a Working Branch**
+```bash
+git checkout -b assignment-work
+```
+
+## Submission Instructions
+
+1. Make sure all answer files are committed:
+
+    ```bash
+    git add answers/
+    git add WORKFLOW_GUIDE.md REFLECTION.md
+    git commit -m "Complete Git commits assignment"
+    git push origin assignment-work
+    ```
+
+2. Create a Pull Request from `assignment-work` to `main`. Title: `Git Commits Assignment - [Your Name]`
+
+3. Submit to LMS:
+    - Link to your GitHub repository
+    - Link to your Pull Request
+    - PDF export of your answers/ directory (all parts combined)
+    - Screenshots folder (zip file with all referenced images)
+
+_Refer to the assignment prompts for tips and grading rubric._
