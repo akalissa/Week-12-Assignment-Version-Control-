@@ -1,0 +1,5 @@
+Start of feature 2
+Work in progress for feature 2
+Fix typo in feature 2
+More fixes for feature 2
+Feature 2 complete
