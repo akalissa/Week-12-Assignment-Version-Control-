@@ -1,1 +1,2 @@
 Initial documentation for feature 3
+Fix typo in documentation for feature 3
