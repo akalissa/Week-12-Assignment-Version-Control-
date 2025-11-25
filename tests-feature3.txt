@@ -1,1 +1,2 @@
 Initial tests for feature 3
+Add more tests for feature 3
